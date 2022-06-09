@@ -1,0 +1,72 @@
+body{
+    width: 900px;
+    margin: auto;
+}
+.center{
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+h4{
+    font-family: sans-serif;
+    font-weight: 350;
+}
+input{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    background-color: initial;
+    border-style:hidden;
+}
+
+form{
+    background-color: white;
+    
+    display: inline;
+}
+
+input:hover{
+    color: aqua;
+}
+
+img{
+    
+    float: left;
+    display: block;
+    width: 400px;
+    height: auto;
+    border-radius: 3%;
+    margin-right: 50px;
+}
+
+.descricao{
+
+}
+
+li{
+    font-family: sans-serif;
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+.steps{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.margin-ul{
+    display: block;
+    background-color: red;
+
+}
