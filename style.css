@@ -2,16 +2,39 @@ body{
     width: 900px;
     margin: auto;
 }
+
+header{
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.inline{
+    display: inline;
+    margin-left: 20px;
+}
+
+.link{
+    color: black;
+}
+
+.inicio{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
 .center{
-    padding-top: 10px;
-    margin: auto;
+    display: block;
     text-align: center;
 }
 
 h1{
     text-align: center;
     font-family: sans-serif;
-    font-style: italic;
 }
 
 h4{
@@ -27,8 +50,7 @@ input{
 }
 
 form{
-    background-color: white;
-    
+    background-color: white;    
     display: inline;
 }
 
@@ -37,17 +59,12 @@ input:hover{
 }
 
 img{
-    
     float: left;
     display: block;
     width: 400px;
     height: auto;
     border-radius: 3%;
     margin-right: 50px;
-}
-
-.descricao{
-
 }
 
 li{
@@ -62,11 +79,38 @@ h3{
     margin-left: auto;
     margin-right: auto;
     width: 600px;
-    margin-top: 80px;
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 100px;
 }
 
-.margin-ul{
-    display: block;
-    background-color: red;
+a{
+    color: black;
+}
 
+a:hover{
+    color: rgb(1, 183, 255);
+}
+
+.yaki{
+    margin-top: 150px;
+}
+
+.sushi{
+    margin-top: 100px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(1, 120, 255);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
 }
